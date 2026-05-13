@@ -43,6 +43,7 @@ function finalizarVenda()
     {
         totalVenda = totalVenda * 0.95;
         alert("✅ Desconto de 5% aplicado!");
+        return;
     }
 
     // 5. ATUALIZAÇÃO: Atualizando os totais globais
