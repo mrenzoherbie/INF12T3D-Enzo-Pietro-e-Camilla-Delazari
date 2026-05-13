@@ -4,7 +4,8 @@ let estoqueAtual = 500;
 /**
  * FUNÇÃO PRINCIPAL: Executada ao clicar no botão
  */
-function finalizarVenda() {
+function finalizarVenda() 
+{
     // 1. ENTRADA DE DADOS: Pegando informações do HTML
     const nomeCliente = document.getElementById('cliente').value;
     const valorUnitario = parseFloat(document.getElementById('valorUnitario').value);
@@ -39,7 +40,7 @@ function finalizarVenda() {
     // Dica: totalVenda = totalVenda * 0.95;
 
     if(qtd >= 10 || qtd === 10)
-    
+    {
         totalVenda = totalVenda * 0.95;
         alert("✅ Desconto de 5% aplicado!");
     }
