@@ -39,11 +39,10 @@ function finalizarVenda() {
     // Dica: totalVenda = totalVenda * 0.95;
 
     if(qtd >= 10 || qtd === 10)
-    {
+    
         totalVenda = totalVenda * 0.95;
+        alert("✅ Desconto de 5% aplicado!");
     }
-
-
 
     // 5. ATUALIZAÇÃO: Atualizando os totais globais
     totalVendasAcumulado += totalVenda;
